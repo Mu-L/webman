@@ -236,7 +236,6 @@ class Monitor
         }
         $masterPid = $this->getMasterPid();
         if ($masterPid <= 0) {
-            echo "Master process has gone away\n";
             return;
         }
 
